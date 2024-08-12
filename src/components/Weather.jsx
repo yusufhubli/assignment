@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const Weather = () => {
     const [weatherData, setWeatherData] = useState(null);
-    const apiKey = import.meta.env.VITE_API_KEY;
+    const apiKey = "268e289f76d66a6971343bccab279805";
     console.log(apiKey)
     const city = 'Bangalore';
 
